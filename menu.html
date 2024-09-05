@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+
+    <!-- Fontawsom -->
+    <script
+      src="https://kit.fontawesome.com/c8bcc72f6d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Link css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="flex align-center justify-between paddings">
+        <a href="accueil.html"><button class="btn-retour">Retour</button></a>
+        <!-- Button cart -->
+        <button id="cart" onclick="togglePanier()">
+          <i class="fa-solid fa-basket-shopping"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Panier -->
+    <div class="flex">
+      <div class="container-panier">
+        <h2>Panier</h2>
+        <div class="container-info">
+          <!-- 
+          <div>
+            <p><b>Menu</b></p>
+            <p>BigWac</p>
+            <p>Frite</p>
+            <p>CocaCola</p>
+          </div>
+
+          <div class="flex justify-center align-center">
+            <button class="btn-modif">Modifier</button>
+          </div>
+          -->
+
+          <div class="btn-add flex justify-center align-center">
+            <div class="btn-plus">+</div>
+            <span class="quantite">0</span>
+            <div class="btn-minus">-</div>
+          </div>
+
+          <div class="pay">
+            <button class="btn-pay">Payer</button>
+            <button class="btn-annuler">Abandonner la commande</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categorie -->
+    <div class="flex justify-center align-center m-top">
+      <div class="container">
+        <!-- card categorie -->
+        <!--  
+        <div id="categorie-card" class="flex align-center justify-center">
+          <img
+            src="./assets/categories/menus.png"
+            alt="logo de la categories menus"
+          />
+          <div>
+            <p><b>Menu</b></p>
+          </div>
+        </div>
+        -->
+      </div>
+    </div>
+
+    <!-- Produit -->
+    <div class="flex justify-center align-center m-top">
+      <div class="container-produit flex justify-center align-center">
+        <!--  
+        <div id="produit" class="flex justify-center align-center">
+          <img
+            src="./assets/produits/menus/280.png"
+            alt="Produit de la categorie menu"
+          />
+          <div class="flex flex-column justify-center align-center">
+            <p><b>Burger</b></p>
+            <p>10€</p>
+          </div>
+        </div>
+        -->
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+
+    <!-- Fontawsom -->
+    <script
+      src="https://kit.fontawesome.com/c8bcc72f6d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- import css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Accueil</title>
+  </head>
+  <body>
+    <!-- Take away or eat in -->
+    <div class="title flex justify-center align-center">
+      <h1><span class="green">W</span>acdo</h1>
+    </div>
+
+    <!-- Button Eat in or Take Away -->
+    <div class="flex justify-center align-center">
+      <div class="flex align-center gap50">
+        <a href="#"><button id="surPlaceBtn" class="btn">Sur Place</button></a>
+        <p class="or">Ou</p>
+        <a href="menu.html"><button class="btn">À Emporter</button></a>
+      </div>
+    </div>
+
+    <!-- pop-up Chevalet -->
+    <div id="chevaletPopup" class="popup">
+      <div class="popup-content">
+        <span class="close">x</span>
+        <p>Votre commande sera servie sur place !</p>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
